@@ -1,7 +1,7 @@
 # Pricing EU call option price by using Monte Carlo method
 1. Set the European call option price based on the BSM model as the theoretical price.
   
-$$V = S_0 N(d_1) - Se^{-rT} N(d_2),\space where\space \space d_1 = \frac{\ln\left(\frac{S_0}{S}\right) + (r + \sigma^2/2)T}{\sigma \sqrt{T}}, d_2 = d_1 - \sigma \sqrt{T} $$
+$$V = S_0 N(d_1) - Ke^{-rT} N(d_2),\space where\space \space d_1 = \frac{\ln\left(\frac{S_0}{S}\right) + (r + \sigma^2/2)T}{\sigma \sqrt{T}}, d_2 = d_1 - \sigma \sqrt{T} $$
   
 2. Simulate option price by Monte Carlo method.    
 3. Compare them.
