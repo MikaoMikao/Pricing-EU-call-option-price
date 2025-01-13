@@ -19,7 +19,7 @@ def Theoretical_price_call(K, r, S0, T, sigma):
 
 
 C_theoretical = Theoretical_price_call(K, r, S0, T, sigma)
-print(f"欧式看涨期权价格: {C_theoretical:.2f}")
+print(f"EU call option price: {C_theoretical:.2f}")
 
 # define finite difference method
 def finite_difference_european_call(S0, K, T, r, sigma, S_max, M, N):
